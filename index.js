@@ -7,8 +7,9 @@ const film6 = new Film('./assets/four.jpg','Four Rooms',1995,'7 su 10')
 const film7 = new Film('./assets/django.jpg','Django Unchained',2012,'7,5 su 10')
 const film8 = new Film('./assets/hateful.jpg','The Hateful Eight',2015,'7 su 10')
 const film9 = new Film('./assets/kill2.jpg','Kill bil Vol.2',2004,' 7 su 10')
+const film10 = new Film('./assets/tram.jpg','Dal tramonto all\'alba',1996,' 6 su 10')
 
-const filmArray = [film1,film2,film3,film5,film4,film6,film7,film8,film9]
+const filmArray = [film1,film2,film3,film5,film4,film6,film7,film8,film9,film10]
 
 
 function renderIndex(list){
@@ -93,3 +94,5 @@ filmArray.sort((a,b)=> a.yop - b.yop)
         
                  renderIndex(filmArray)
         }
+
+        
