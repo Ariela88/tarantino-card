@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Belanosima&family=Caprasimo&family=Ysabeau+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Quicksand:wght@400;600;700&family=Rubik:wght@300;400;800;900&display=swap');
 
 body {
 
@@ -23,7 +23,9 @@ body {
     padding: 24px;
     margin: auto;
     margin-bottom: 30px;
-    font-family: 'Ysabeau SC', sans-serif;
+  
+font-family: 'Quicksand', sans-serif;
+
     color: white;
     background-color: rgb(54, 54, 54);
 
