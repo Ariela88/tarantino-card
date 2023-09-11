@@ -37,6 +37,7 @@ const imageCard = document.createElement('img')
 imageCard.src  = film.image
 
 cardFilm.appendChild(imageCard)
+
 titleCard.appendChild(nodeTitle)
 yopCard.appendChild(nodeYop)
 rateCard.appendChild(nodeRate)
